@@ -63,5 +63,39 @@ const questions = [
       { text: 'During the Daily Scrum.', correct: false },
       { text: 'When the Scrum Master assigns it.', correct: false }
     ]
+  },
+  {
+    question: 'Which is NOT a way the Scrum Master serves the Product Owner? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'Helping find techniques for effective Product Goal definition', correct: false },
+      { text: 'Helping find techniques for effective Product Backlog management, including ordering/prioritization', correct: false },
+      { text: 'Facilitating stakeholder collaboration as requested or needed', correct: false },
+      { text: 'Cancelling the sprint if the Scrum Master sees the Sprint Goal has become obsolete', correct: true }
+    ]
+  },
+  {
+    question: 'Which is NOT a stance of the Scrum Master? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'Facilitator', correct: false },
+      { text: 'Coach', correct: false },
+      { text: 'Teacher', correct: false },
+      { text: 'Administrator', correct: true }
+    ]
+  },
+  {
+    question: 'True or False: The Scrum Master must resolve all impendiments?',
+    answers: [
+      { text: 'True', correct: false },
+      { text: 'False', correct: true },
+    ]
+  },
+  {
+    question: 'The Scrum Master is accountable for the Scrum Team\'s effectiveness?',
+    answers: [
+      { text: 'True', correct: True },
+      { text: 'False', correct: False },
+    ]
   }
 ]
