@@ -82,4 +82,36 @@ const questions = [
       { text: 'All of the above', correct: true }
     ]
   }
+  {
+    question: 'Which of these are Artifacts in Scrum? \n \
+    A - Product Backlog \n \
+    B - Product Goal \n \
+    C - Sprint Backlog \n \
+    D - Sprint Goal \n \
+    E - Definition of Done \n \
+    F - Increment \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'A, C and E', correct: false },
+      { text: 'A, C and F', correct: true },
+      { text: 'B, D, and E', correct: false },
+      { text: 'B, D and F', correct: false },
+      { text: 'A and B', correct: false },
+      { text: 'All of the above', correct: false }
+    ]
+  },
+  {
+    question: 'True or False: The Developers commit to delivering all the items in the Sprint Backlog?',
+    answers: [
+      { text: 'True', correct: false },
+      { text: 'False', correct: true },
+    ]
+  },
+  {
+    question: 'True or False: An increment can only be shipped after the Sprint Review?',
+    answers: [
+      { text: 'True', correct: false },
+      { text: 'False', correct: true },
+    ]
+  }
 ]
