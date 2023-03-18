@@ -1,6 +1,7 @@
 const startButton = document.getElementById('start-btn')
 const nextButton = document.getElementById('next-btn')
 const scoreButton = document.getElementById('score-btn')
+const endButton = document.getElementById('end-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
@@ -73,13 +74,8 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
-    const url = '../index.html'; 
-    const link = document.createElement('a');
-    link.href = url;
-    link.innerText = 'End Quiz';
-    startButton.innerHTML = '';
-    startButton.appendChild(link);
-    startButton.classList.remove('hide');
+    nextButton.classList.add('hide');
+    endButton.classList.remove('hide');
   }
 }
 
