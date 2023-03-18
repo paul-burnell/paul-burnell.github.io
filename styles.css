@@ -19,7 +19,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url("images/background.jpg");
+  background-image: url("images/background.png");
   background-size: cover;
   background-color: hsl(var(--hue), 100%, 20%);
 }
@@ -61,6 +61,7 @@ body.wrong {
 
 .btn:hover {
   background-color: #0CA0CE;
+  text-decoration: none;
 }
 
 .btn.correct {
@@ -75,6 +76,7 @@ body.wrong {
 .btn.correct:hover, .btn.wrong:hover {
   background-color: var(--hue);
   cursor: default;
+  text-decoration: none;
 }
 
 
@@ -86,6 +88,13 @@ body.wrong {
 }
 
 .score-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.end-btn {
   font-size: 1.5rem;
   font-weight: bold;
   padding: 10px 20px;
