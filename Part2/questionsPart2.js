@@ -30,6 +30,7 @@ const questions = [
       { text: 'The Developers after clarifying the requirements with the Product Owner.', correct: true }
     ]
   },
+ 
   {
     question: 'True or False: Done Increments must be shipped to end users at the end of each Sprint?',
     answers: [
@@ -47,7 +48,8 @@ const questions = [
       { text: 'No more than 1 day per week for the Developers.', correct: false }
     ]
   },
-  {
+ 
+   {
     question: 'When does the Sprint end? \n \
     (choose the best answer)',
     answers: [
@@ -89,8 +91,7 @@ const questions = [
     ]
   },
   {
-    question: 'True or False: Scrum has a role called "project manager?" \n \
-    (choose the best answer)',
+    question: 'True or False: Scrum has a role called "project manager?"',
     answers: [
       { text: 'True', correct: false },
       { text: 'False', correct: true },
