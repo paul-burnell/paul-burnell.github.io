@@ -313,7 +313,34 @@ const questions = [
       { text: 'The Scrum Team.', correct: false }
     ]
   },
-
+  {
+    question: 'True or False: At least 1 action must be taken from the Retrospective and added to the next Sprint Backlog?" \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'True', correct: false },
+      { text: 'False', correct: true },
+    ]
+  },
+  {
+    question: 'For a 2 week sprint Sprint Planning will take? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'Up to 4 hours', correct: false },
+      { text: 'Up to 8 hours', correct: true },
+      { text: 'There is no time box for Sprint Planning', correct: false },
+      { text: 'Up to 3 hours', correct: false }
+    ]
+  },
+  {
+    question: 'The Definition of Done is? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'A complimentary practice to Scrum', correct: false },
+      { text: 'An Artifact', correct: false },
+      { text: 'A commitment', correct: true },
+      { text: 'A quality gate that code needs to pass before it can be tested', correct: false }
+    ]
+  },
   //Part 4 Questions
   {
     question: 'What is sustainable pace? \n \
