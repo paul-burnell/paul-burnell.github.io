@@ -94,8 +94,8 @@ const questions = [
   {
     question: 'The Scrum Master is accountable for the Scrum Team\'s effectiveness?',
     answers: [
-      { text: 'True', correct: True },
-      { text: 'False', correct: False },
+      { text: 'True', correct: true },
+      { text: 'False', correct: false },
     ]
   }
 ]
