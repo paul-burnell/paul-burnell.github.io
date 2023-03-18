@@ -81,7 +81,7 @@ const questions = [
       { text: 'B and E', correct: false },
       { text: 'All of the above', correct: true }
     ]
-  }
+  },
   {
     question: 'Which of these are Artifacts in Scrum? \n \
     A - Product Backlog \n \
