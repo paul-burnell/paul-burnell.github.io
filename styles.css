@@ -94,6 +94,11 @@ body.wrong {
   text-decoration: none;
 }
 
+.score-btn:hover {
+  background-color: var(--hue-neutral);
+  text-decoration: none;
+}
+
 .end-btn {
   font-size: 1.5rem;
   font-weight: bold;
