@@ -60,7 +60,7 @@ body.wrong {
 }
 
 .btn:hover {
-  border-color: black;
+  background-color: #0CA0CE;
 }
 
 .btn.correct {
@@ -71,6 +71,12 @@ body.wrong {
 .btn.wrong {
   --hue: var(--hue-wrong);
 }
+
+.btn.correct:hover, .btn.wrong:hover {
+  background-color: var(--hue);
+  cursor: default;
+}
+
 
 .start-btn, .next-btn {
   font-size: 1.5rem;
