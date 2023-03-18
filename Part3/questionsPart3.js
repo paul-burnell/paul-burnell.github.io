@@ -78,8 +78,7 @@ const questions = [
     ]
   },
   {
-    question: 'True or False: At least 1 action must be taken from the Retrospective and added to the next Sprint Backlog?" \n \
-    (choose the best answer)',
+    question: 'True or False: At least 1 action must be taken from the Retrospective and added to the next Sprint Backlog?"',
     answers: [
       { text: 'True', correct: false },
       { text: 'False', correct: true },
