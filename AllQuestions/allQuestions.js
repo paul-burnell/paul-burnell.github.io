@@ -115,6 +115,7 @@ const questions = [
       { text: 'False', correct: true },
     ]
   },
+
   //Part 2 Questions
   {
     question: 'Scrum is founded on empirical process control theory and one of the pillars that upholds \
@@ -148,7 +149,6 @@ const questions = [
     ]
   },
  
- //IS THIS DAY 3?????????????
   {
     question: 'True or False: Done Increments must be shipped to end users at the end of each Sprint?',
     answers: [
@@ -167,8 +167,7 @@ const questions = [
     ]
   },
  
- //IS THIS DAY 3?????????????
-  {
+   {
     question: 'When does the Sprint end? \n \
     (choose the best answer)',
     answers: [
@@ -210,8 +209,7 @@ const questions = [
     ]
   },
   {
-    question: 'True or False: Scrum has a role called "project manager?" \n \
-    (choose the best answer)',
+    question: 'True or False: Scrum has a role called "project manager?"',
     answers: [
       { text: 'True', correct: false },
       { text: 'False', correct: true },
@@ -314,8 +312,7 @@ const questions = [
     ]
   },
   {
-    question: 'True or False: At least 1 action must be taken from the Retrospective and added to the next Sprint Backlog?" \n \
-    (choose the best answer)',
+    question: 'True or False: At least 1 action must be taken from the Retrospective and added to the next Sprint Backlog?"',
     answers: [
       { text: 'True', correct: false },
       { text: 'False', correct: true },
@@ -341,6 +338,7 @@ const questions = [
       { text: 'A quality gate that code needs to pass before it can be tested', correct: false }
     ]
   },
+
   //Part 4 Questions
   {
     question: 'What is sustainable pace? \n \
@@ -405,6 +403,40 @@ const questions = [
               a whole remain accountable for the Sprint Backlog in its entirety.', correct: true },
       { text: 'During the Daily Scrum.', correct: false },
       { text: 'When the Scrum Master assigns it.', correct: false }
+    ]
+  },
+  {
+    question: 'Which is NOT a way the Scrum Master serves the Product Owner? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'Helping find techniques for effective Product Goal definition', correct: false },
+      { text: 'Helping find techniques for effective Product Backlog management, including ordering/prioritization', correct: false },
+      { text: 'Facilitating stakeholder collaboration as requested or needed', correct: false },
+      { text: 'Cancelling the sprint if the Scrum Master sees the Sprint Goal has become obsolete', correct: true }
+    ]
+  },
+  {
+    question: 'Which is NOT a stance of the Scrum Master? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'Facilitator', correct: false },
+      { text: 'Coach', correct: false },
+      { text: 'Teacher', correct: false },
+      { text: 'Administrator', correct: true }
+    ]
+  },
+  {
+    question: 'True or False: The Scrum Master must resolve all impendiments?',
+    answers: [
+      { text: 'True', correct: false },
+      { text: 'False', correct: true },
+    ]
+  },
+  {
+    question: 'The Scrum Master is accountable for the Scrum Team\'s effectiveness?',
+    answers: [
+      { text: 'True', correct: True },
+      { text: 'False', correct: False },
     ]
   }
 ]
