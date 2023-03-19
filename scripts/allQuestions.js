@@ -319,7 +319,7 @@ const questions = [
     ]
   },
   {
-    question: 'For a 2 week sprint Sprint Planning will take? \n \
+    question: 'For a 2 week sprint how long can Sprint Planning take? \n \
     (choose the best answer)?',
     answers: [
       { text: 'Up to 4 hours', correct: false },
