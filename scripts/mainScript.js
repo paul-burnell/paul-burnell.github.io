@@ -18,7 +18,7 @@ nextButton.addEventListener('click', () => {
 
 function startGame() {
   startButton.classList.add('hide')
-  shuffledQuestions = questions.sort(() => Math.random() - .5)
+  shuffledQuestions = shuffledQuestions = shuffle(questions);
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
@@ -91,7 +91,7 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
-// Shuffle function to randomly order the answers
+// Shuffle function to randomly order the questions or answers
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
