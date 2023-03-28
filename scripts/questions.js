@@ -577,7 +577,7 @@ const questions = [
   },
   {
     set: 'Part4',
-    question: 'The Scrum Master serves the Scrum Team in several ways, including?', \n \
+    question: 'The Scrum Master serves the Scrum Team in several ways, including?, \n \
     (choose the best answer)',
     answers: [
       { text: 'Shielding the team by ensuring all communication from stakeholders go through them.', correct: false },
