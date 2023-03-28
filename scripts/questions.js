@@ -20,7 +20,7 @@ const questions = [
     (choose the best answer)',
     answers: [
       { text: 'Without a new vocabulary as a reminder of the change, very little change may actually happen.', correct: false },
-      { text: 'The organization may not understand what has changed With Scrum and the benefits of Scrum may be lost.', correct: false },
+      { text: 'The organization may not understand what has changed with Scrum and the benefits of Scrum may be lost.', correct: false },
       { text: 'Management may feel less anxious.', correct: false },
       { text: 'All of the answers. ', correct: true }
     ]
@@ -134,7 +134,7 @@ const questions = [
     set: 'Part2',
     question: 'Scrum is founded on empirical process control theory and one of the pillars that upholds \
     its implementation is transparency. In what ways can you maximize transparency of the Product Backlog? \n \
-    (choose the best answer)?',
+    (choose the best answer)',
     answers: [
       { text: 'The Product Backlog is divided by future Sprints.', correct: false },
       { text: 'Product Backlog items are estimated in Story Points.', correct: false },
@@ -145,7 +145,7 @@ const questions = [
   {
     set: 'Part3',
     question: 'What is time-boxing? \n \
-    (choose the best answer)?',
+    (choose the best answer)',
     answers: [
       { text: 'It refers to emphasizing achieving results by focusing on the needs of the Scrum Team.', correct: false },
       { text: 'It refers to delivering maximum business value in a minimum time span', correct: false },
@@ -231,7 +231,7 @@ const questions = [
   },
   {
     set: 'Part3',
-    question: 'Another word for the Sprint is an Increment?',
+    question: 'True or False: Another word for the Sprint is an Increment?',
     answers: [
       { text: 'True', correct: false },
       { text: 'False', correct: true }
@@ -239,7 +239,7 @@ const questions = [
   },
   {
     set: 'Part3',
-    question: 'Increments can only be shown to Stakeholders during the Sprint Review?',
+    question: 'True or False: Increments can only be shown to Stakeholders during the Sprint Review?',
     answers: [
       { text: 'True', correct: false },
       { text: 'False', correct: true }
@@ -285,7 +285,7 @@ const questions = [
     answers: [
       { text: 'To gather status and progress information to report to management.', correct: false },
       { text: 'To write down any changes to the Sprint Backlog, including adding new items, and tracking progress on the burn-down.', correct: false },
-      { text: 'They do not have to be there; they only need to ensure the Developers have a Daily Scrum.', correct: true },
+      { text: 'They do not have to be there, they only need to ensure the Developers have a Daily Scrum.', correct: true },
       { text: 'To make sure every team member answers the three questions.', correct: false }
     ]
   },
@@ -407,10 +407,10 @@ const questions = [
     question: 'Which statement best describes the purpose of the Sprint Retrospective? \n \
     (choose the best answer)?',
     answers: [
-      { text: 'The purpose is to identify Developers who should be replaced', correct: false },
-      { text: 'The purpose is to allow the Developers to vent their frustrations.', correct: false },
-      { text: 'The purpose is to allow Stakeholders the opportunity to suggest improvements to the Product.', correct: false },
-      { text: 'The purpose is to plan ways to increase quality and effectiveness.', correct: true }
+      { text: 'To identify Developers who should be replaced', correct: false },
+      { text: 'To allow the Developers to vent their frustrations.', correct: false },
+      { text: 'To allow Stakeholders the opportunity to suggest improvements to the Product.', correct: false },
+      { text: 'To plan ways to increase quality and effectiveness.', correct: true }
     ]
   },
   {
@@ -427,7 +427,7 @@ const questions = [
   },
   {
     set: 'Part3',
-    question: 'Who should attend Sprint Planning? \n \
+    question: 'Who should attend the Sprint Planning event? \n \
     (choose the best answer)?',
     answers: [
       { text: 'The Product Owner and Key Stakeholders.', correct: false },
@@ -438,7 +438,7 @@ const questions = [
   },
   {
     set: 'Part3',
-    question: 'Who should attend Sprint Review? \n \
+    question: 'Who should attend the Sprint Review event? \n \
     (choose the best answer)?',
     answers: [
       { text: 'The Developers.', correct: false },
@@ -449,12 +449,12 @@ const questions = [
   },
   {
     set: 'Part3',
-    question: 'Who should attend Sprint Retrospective? \n \
+    question: 'Who should attend the Sprint Retrospective event? \n \
     (choose the best answer)?',
     answers: [
       { text: 'The Scrum Team and Key Stakeholders.', correct: false },
-      { text: 'The Developers and Scrum Master', correct: false },
-      { text: 'The Developer and Product Owner', correct: false },
+      { text: 'The Developers and Scrum Master.', correct: false },
+      { text: 'The Developer and Product Owner.', correct: false },
       { text: 'The Scrum Team.', correct: true }
     ]
   },
@@ -463,7 +463,7 @@ const questions = [
     question: 'When does a new Sprint begin? \n \
     (choose the best answer)',
     answers: [
-      { text: 'Immediately after the next Sprint Planning', correct: false },
+      { text: 'Immediately after Sprint Planning', correct: false },
       { text: 'Immediately after the end of the previous Sprint.', correct: true },
       { text: 'It depends on the Product Owner.', correct: false },
       { text: 'Every Monday.', correct: false }
@@ -496,8 +496,8 @@ const questions = [
     F - Daily Scrum',
     answers: [
       { text: 'A, B and C', correct: false },
-      { text: 'A, B and F', correct: false },
-      { text: 'A, B, D and F', correct: true },
+      { text: 'A, B and F', correct: true },
+      { text: 'A, B, D and F', correct: false },
       { text: 'All the above', correct: false }
     ]
   },
@@ -569,15 +569,16 @@ const questions = [
     set: 'Part4',
     question: 'Which of the following is the Scrum Master accountable for?',
     answers: [
-      { text: 'The Scrum Team/s effectiveness.', correct: true },
-      { text: 'The Scrum Team/s delivery.', correct: false },
-      { text: 'The Scrum Team/s  collaboration.', correct: false },
-      { text: 'The Scrum Team/s happiness.', correct: false }
+      { text: 'The Scrum Team\'s effectiveness.', correct: true },
+      { text: 'The Scrum Team\'s delivery.', correct: false },
+      { text: 'The Scrum Team\'s  collaboration.', correct: false },
+      { text: 'The Scrum Team\'s happiness.', correct: false }
     ]
   },
   {
     set: 'Part4',
-    question: 'The Scrum Master serves the Scrum Team in several ways, including?',
+    question: 'The Scrum Master serves the Scrum Team in several ways, including?', \n \
+    (choose the best answer)',
     answers: [
       { text: 'Shielding the team by ensuring all communication from stakeholders go through them.', correct: false },
       { text: 'Causing the removal of impediments to the Scrum Team’s progress.', correct: true },
@@ -815,11 +816,11 @@ const questions = [
   },
   {
     set: 'Part3',
-    question: 'During a Sprint, a Developer determines that the Scrum Team will not be able to complete the items in their forecast. Who should be present to review and \n \
+    question: 'During a Sprint, a Developer determines that the Scrum Team will not be able to complete the items in their forecast. Who should be present to review and \
     adjust the Product Backlog items selected? \n \
     (choose the best answer)',
     answers: [
-      { text: 'The Product Owner and all stakeholders.', correct: false },
+      { text: 'The Product Owner and all Stakeholders.', correct: false },
       { text: 'The Scrum Master, the project manager, and the Developers.', correct: false },
       { text: 'The Developers.', correct: false },
       { text: 'The Product Owner and the Developers.', correct: true }
@@ -908,7 +909,7 @@ const questions = [
   },
   {
     set: 'Part4',
-    question: 'Who is responsible for all product related activities from stakeholder collaboration, verification ,maintenance ,operation, \
+    question: 'Who is responsible for all product related activities from stakeholder collaboration, verification, maintenance, operation, \
     experimentation, research and development and anything else that might be required? \n \
     (choose the best answer)',
     answers: [
@@ -932,10 +933,10 @@ const questions = [
   //Done
   {
     set: 'Part3',
-    question: 'True or False: The Definition of Done builds upon the definition of Ready?',
+    question: 'True or False: The Definition of Done builds upon the Definition of Ready?',
     answers: [
-      { text: 'True', correct: true },
-      { text: 'False', correct: false }
+      { text: 'True', correct: false },
+      { text: 'False', correct: true }
     ]
   },    
   {
@@ -954,7 +955,7 @@ const questions = [
     question: 'Who creates the Definition of Done? \n \
     (choose the best answer)?',
     answers: [
-      { text: 'The Scrum Team, in a collaborative effort where the result is the common denominator Of all members\' definitions.', correct: false },
+      { text: 'The Scrum Team, in a collaborative effort where the result is the common denominator of all members\' definitions.', correct: false },
       { text: 'If it is not an organizational standard, the Scrum Team must create a Definition Of Done appropriate for the product.', correct: true },
       { text: 'The Product Owner since they are responsible for the product\'s success.', correct: false },
       { text: 'The Scrum Master since they are responsible for the productivity of the Developers.', correct: false }
@@ -1119,7 +1120,7 @@ const questions = [
   //Product Backlog Management
   {
     set: 'Part2', 
-    question: 'True or False: When multiple Scrum Teams work together on the same product, each team should maintain a separate Product Backlog.?',
+    question: 'True or False: When multiple Scrum Teams work together on the same product, each team should maintain a separate Product Backlog?',
     answers: [
       { text: 'True', correct: false },
       { text: 'False', correct: true }
@@ -1166,7 +1167,7 @@ const questions = [
   {
     set: 'Part1',
     question: 'Which two things should the Scrum Team do during the first Sprint? \n \
-    A - Deliver an Increment Of useful and valuable product. \n \
+    A - Deliver an Increment of useful and valuable product. \n \
     B - Develop a Plan for the rest of the release. \n \
     C - Determine the complete architecture and infrastructure for the product. \n \
     D - Develop and deliver at least one piece of functionality. \n \
