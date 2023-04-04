@@ -555,6 +555,105 @@ const questions = [
       { text: 'All of the above', correct: true }
     ]
   },
+  {
+    set: 'Part1',  
+    question: 'Which of the following is NOT one of the five Scrum values? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Focus', correct: false },
+      { text: 'Commitment', correct: false },
+      { text: 'Transparency', correct: true },
+      { text: 'Courage', correct: false }
+    ]
+  },
+  {
+    set: 'Part1',  
+    question: 'Which Scrum value emphasizes the importance of being open and honest about the work being done and the progress being made? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Focus', correct: false },
+      { text: 'Commitment', correct: false },
+      { text: 'Openness', correct: true },
+      { text: 'Honesty', correct: false }
+    ]
+  },
+  {
+    set: 'Part1',  
+    question: 'Which Scrum value emphasizes the importance of having the courage to take on difficult challenges and make tough decisions? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Respect', correct: false },
+      { text: 'Courage', correct: true },
+      { text: 'Commitment', correct: false },
+      { text: 'Trust', correct: false }
+    ]
+  },
+  {
+    set: 'Part1',  
+    question: 'Which Scrum value emphasizes the importance of staying focused on the goals of the team and the project? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Dedication', correct: false },
+      { text: 'Focus', correct: true },
+      { text: 'Adaption', correct: false },
+      { text: 'Respect', correct: false }
+    ]
+  },
+  {
+    set: 'Part1',  
+    question: 'Which Scrum value emphasizes the importance of continuously improving and learning from experience? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Focus', correct: false },
+      { text: 'Commitment', correct: true },
+      { text: 'Respect', correct: false },
+      { text: 'Courage', correct: false }
+    ]
+  },
+  {
+    set: 'Part1',  
+    question: 'Which Scrum value emphasizes the importance of the team committing to achieving their goals and completing their work? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Focus', correct: false },
+      { text: 'Commitment', correct: true },
+      { text: 'Customer Orientation', correct: false },
+      { text: 'Openness', correct: false }
+    ]
+  },
+  {
+    set: 'Part1',  
+    question: 'Which Scrum value emphasizes the importance of treating everyone with respect and recognizing their contributions to the team? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Courage', correct: false },
+      { text: 'Respect', correct: true },
+      { text: 'Focus', correct: false },
+      { text: 'Honesty', correct: false }
+    ]
+  },
+  {
+    set: 'Part1',  
+    question: 'Which Scrum value emphasizes the importance of delivering value to the customer and stakeholders? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Customer Commitment', correct: false },
+      { text: 'Focus', correct: true },
+      { text: 'Respect', correct: false },
+      { text: 'Honesty', correct: false }
+    ]
+  },
+  {
+    set: 'Part1',  
+    question: 'Which Scrum value emphasizes the importance of being willing to adapt and change course as needed? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Adaption', correct: false },
+      { text: 'Commitment', correct: true },
+      { text: 'Respect', correct: false },
+      { text: 'Courage', correct: false }
+    ]
+  },
 
   //Scrum Master
   {
@@ -952,6 +1051,17 @@ const questions = [
   },
   {
     set: 'Part3',
+    question: 'Which of the following is a key benefit of having a shared Definition of Done between Scrum teams? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'It ensures that each team can work independently without needing to collaborate with other teams.', correct: false },
+      { text: 'It allows each team to have their own unique Definition of Done that works best for them.', correct: false },
+      { text: 'It ensures consistency in the quality of work produced by all Scrum teams.', correct: true },
+      { text: 'It reduces the need for regular Sprint Reviews and Sprint Retrospectives between teams.', correct: false }
+    ]
+  },
+  {
+    set: 'Part3',
     question: 'Who creates the Definition of Done? \n \
     (choose the best answer)?',
     answers: [
@@ -992,6 +1102,61 @@ const questions = [
       { text: 'The Scrum Master.', correct: false },
       { text: 'The Product Owner.', correct: false },
       { text: 'The Developers.', correct: true }
+    ]
+  },
+  {
+    set: 'Part3',
+    question: 'Which of the following best describes the Definition of Done in Scrum? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'The acceptance criteria for a user story.', correct: false },
+      { text: 'The sprint goal.', correct: false },
+      { text: 'The set of guidelines that defines the roles and responsibilities of the Scrum team.', correct: false },
+      { text: 'The minimum set of criteria that must be met before a product increment can be released.', correct: true }
+    ]
+  },
+  {
+    set: 'Part3',
+    question: 'When is the Definition of Done created in Scrum? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'During Sprint Planning.', correct: false },
+      { text: 'During Sprint Review.', correct: false },
+      { text: 'During Sprint Review.', correct: false },
+      { text: 'Throughout the sprint.', correct: true }
+    ]
+  },
+  {
+    set: 'Part3',
+    question: 'What is the purpose of the Definition of Done in Scrum? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'To provide guidelines for how the Scrum Team should work.', correct: false },
+      { text: 'To define the acceptance criteria for user stories.', correct: false },
+      { text: 'To establish the sprint goal.', correct: false },
+      { text: 'To ensure that the product increment is potentially releasable.', correct: true }
+    ]
+  },
+  {
+    set: 'Part3',
+    question: 'Which of the following is NOT a characteristic of a good Definition of Done? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'It gets more stringent as time progresses.', correct: false },
+      { text: 'It is the minimum quality an increment needs to be.', correct: false },
+      { text: 'It is agreed upon by the entire Scrum Team.', correct: false },
+      { text: 'It varies depending on the story.', correct: true }
+    ]
+  },
+  {
+    set: 'Part3',
+    question: 'When can the Definition of Done be changed? \n \
+    (choose the best answer)?',
+    answers: [
+      { text: 'Between Sprints.', correct: false },
+      { text: 'Only at the Sprint Retrospective.', correct: false },
+      { text: 'Only at the Sprint Review.', correct: false },
+      { text: 'Whenever necessary.', correct: true }
     ]
   },
 
@@ -1116,7 +1281,61 @@ const questions = [
       { text: 'False', correct: true }
     ]
   },
-
+  {
+    set: 'Part4',
+    question: 'What is the primary purpose of Release Planning in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'To plan the daily work of the Developers for the upcoming sprint.', correct: false },
+      { text: 'To plan the delivery of a potentially releasable increment of the product.', correct: true },
+      { text: 'To identify and prioritize all the requirements for the product backlog.', correct: false },
+      { text: 'To review the progress of the product development so far.', correct: false },
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'Who is responsible for Release Planning in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'The Scrum Master.', correct: false },
+      { text: 'The Product Owner.', correct: true },
+      { text: 'The Developers.', correct: false },
+      { text: 'The Stakeholders.', correct: false },
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'What is the recommended time frame for Releasing in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'At the end of each sprint.', correct: false },
+      { text: 'As frequently as necessary based on the needs of the product.', correct: true },
+      { text: 'Once per quarter.', correct: false },
+      { text: 'Once per month.', correct: false },
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'What is the main output of Release Planning in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'A detailed plan of all the tasks to be performed during the upcoming sprint.', correct: false },
+      { text: 'A roadmap for the delivery of a potentially releasable product increment.', correct: true },
+      { text: 'A retrospective report on the previous sprint.', correct: false },
+      { text: 'A list of all the user stories in the product backlog.', correct: false },
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'During Release Planning, which of the following is NOT typically discussed by the Scrum Team? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'The high-level goals and objectives of the project.', correct: false },
+      { text: 'The detailed tasks and time estimates for each user story in the product backlog.', correct: true },
+      { text: 'The resource constraints and potential risks to the project.', correct: false },
+      { text: 'The features and functionalities of the product increment to be delivered.', correct: false },
+    ]
+  },
   //Product Backlog Management
   {
     set: 'Part2', 
@@ -1162,10 +1381,120 @@ const questions = [
       { text: 'The Scrum Team commits that every Product Backlog item taken into a sprint must be completed in that sprint.', correct: false }
     ]
   },
+  {
+    set: 'Part4',
+    question: 'What is the primary responsibility of the Product Owner in managing the Product Backlog in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Keeping the backlog up-to-date and reflective of the current state of the product.', correct: true },
+      { text: 'Prioritizing the backlog items based on stakeholder feedback.', correct: false },
+      { text: 'Ensuring that all items in the backlog are fully defined and detailed.', correct: false },
+      { text: 'Assigning tasks to the Developers.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'Which of the following best describes the Product Backlog in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'A prioritized list of features and requirements for the product.', correct: true },
+      { text: 'A detailed plan of all the tasks to be performed during the upcoming sprint.', correct: false },
+      { text: 'A list of all the user stories in the project.', correct: false },
+      { text: 'A retrospective report on the previous sprint.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'Who is responsible for creating and maintaining the Product Backlog in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'The Product Owner.', correct: true },
+      { text: 'The Scrum Master.', correct: false },
+      { text: 'The Developers.', correct: false },
+      { text: 'The Stakeholders.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'What is the recommended frequency for reviewing and refining the Product Backlog in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'As frequently as necessary based on the needs of the project.', correct: true },
+      { text: 'Only during the Sprint Review.', correct: false },
+      { text: 'Once per month.', correct: false },
+      { text: 'After each Sprint.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'Which of the following is NOT an attribute of a good Product Backlog item in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Complex and difficult to implement.', correct: true },
+      { text: 'Independently testable.', correct: false },
+      { text: 'Able to be estimated.', correct: false },
+      { text: 'Valuable to the customer.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'In Scrum, what is the purpose of prioritizing the Product Backlog? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'To ensure that the most valuable and high-priority items are developed first.', correct: true },
+      { text: 'To provide a roadmap for the development of the product.', correct: false },
+      { text: 'To identify the resource constraints and potential risks to the project.', correct: false },
+      { text: 'To assign tasks to the Developers.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'Which of the following is a technique commonly used in Scrum to estimate the effort required for each Product Backlog item? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Story points.', correct: true },
+      { text: 'Project estimation.', correct: false },
+      { text: 'Velocity tracking.', correct: false },
+      { text: 'Gantt chart.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'What is a recommended approach for splitting large and complex Product Backlog items into smaller, more manageable ones? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Breaking down the item into smaller, independent pieces.', correct: true },
+      { text: 'Conducting a design review with stakeholders.', correct: false },
+      { text: 'Creating a detailed project plan.', correct: false },
+      { text: 'Delegating the task to the Developers.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'What is the recommended approach for managing changes to the Product Backlog in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Consulting with the Product Owner and stakeholders before making changes.', correct: true },
+      { text: 'Allowing stakeholders to make changes as necessary.', correct: false },
+      { text: 'Having the Developers make changes as necessary.', correct: false },
+      { text: 'Waiting until the next sprint planning session to make any changes.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: '? \n \
+    (choose the best answer)',
+    answers: [
+      { text: '.', correct: true },
+      { text: '.', correct: false },
+      { text: '.', correct: false },
+      { text: '.', correct: false }
+    ]
+  },
   
   //Product Value
   {
-    set: 'Part1',
+    set: 'Part3',
     question: 'Which two things should the Scrum Team do during the first Sprint? \n \
     A - Deliver an Increment of useful and valuable product. \n \
     B - Develop a Plan for the rest of the release. \n \
@@ -1177,6 +1506,116 @@ const questions = [
       { text: 'A and D', correct: true },
       { text: 'B and C', correct: false },
       { text: 'B and D', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'Which of the following statements best describes the concept of product value in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Product value is the overall worth of a product to the stakeholders.', correct: true },
+      { text: 'Product value is the monetary worth of a product.', correct: false },
+      { text: 'Product value is the return on investment (ROI) of a product.', correct: false },
+      { text: 'Product value is the cost of producing a product.', correct: false }
+    ]
+  },
+  {
+    set: 'Part3',
+    question: 'Who is responsible for defining the product value in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'The Product Owner.', correct: true },
+      { text: 'The Developers.', correct: false },
+      { text: 'The Scrum Master.', correct: false },
+      { text: 'The Stakeholders.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'What is the main purpose of the Product Backlog in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'To prioritize features based on their value to the stakeholders.', correct: true },
+      { text: 'To track progress of the Developers.', correct: false },
+      { text: 'To document all requirements for the product.', correct: false },
+      { text: 'To list all possible features that could be developed for the product.', correct: false }
+    ]
+  },
+  {
+    set: 'Part3',
+    question: 'What is the role of the Developers in delivering product value in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'To develop the product in accordance with the Product Backlog.', correct: true },
+      { text: 'To set the product vision and strategy.', correct: false },
+      { text: 'To negotiate with stakeholders on product features.', correct: false },
+      { text: 'To manage the product budget.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'Which of the following is a recommended practice for maximizing product value in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Continuously re-evaluating and adjusting the Product Backlog based on stakeholder feedback.', correct: true },
+      { text: 'Focusing on delivering features that are easy to develop.', correct: false },
+      { text: 'Prioritizing features based on their complexity.', correct: false },
+      { text: 'Developing all features in a single sprint.', correct: false }
+    ]
+  },
+  {
+    set: 'Part3',
+    question: 'Which of the following is a way to measure product value in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'The level of stakeholder satisfaction with the product.', correct: true },
+      { text: 'The amount of effort spent by the Developers.', correct: false },
+      { text: 'The number of features delivered in each sprint.', correct: false },
+      { text: 'The total cost of producing the product.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'Who is responsible for ensuring that the Developers understand the product value in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'The Product Owner.', correct: true },
+      { text: 'The Scrum Master.', correct: false },
+      { text: 'The Stakeholders.', correct: false },
+      { text: 'The Developers themselves.', correct: false }
+    ]
+  },
+  {
+    set: 'Part3',
+    question: 'Which of the following is a reason why it is important to prioritize the Product Backlog based on product value in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'It ensures that the most valuable features are delivered first.', correct: true },
+      { text: 'It helps the Developers estimate the effort required to complete each feature.', correct: false },
+      { text: 'It helps the Scrum Master track progress of the Developers.', correct: false },
+      { text: 'It allows the stakeholders to have more control over the development process.', correct: false }
+    ]
+  },
+  {
+    set: 'Part4',
+    question: 'What is the role of the Scrum Master in delivering product value in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'To facilitate the Scrum events and cause the removal of impediments that prevent the Developers from delivering value.', correct: true },
+      { text: 'To develop the product in accordance with the Product Backlog.', correct: false },
+      { text: 'To prioritize features based on their value to the stakeholders.', correct: false },
+      { text: 'To negotiate with stakeholders on product features.', correct: false }
+    ]
+  },
+  {
+    set: 'Part3',
+    question: 'Which of the following is a way to ensure that the Developers are delivering value in Scrum? \n \
+    (choose the best answer)',
+    answers: [
+      { text: 'Encouraging the Developers to seek feedback from stakeholders throughout the development process.', correct: true },
+      { text: 'Conducting daily stand-up meetings to track progress.', correct: false },
+      { text: 'Requiring the Developers to provide detailed progress reports.', correct: false },
+      { text: 'Measuring the amount of time spent by the Developers on each feature.', correct: false }
     ]
   }
 ]
