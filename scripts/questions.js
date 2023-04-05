@@ -1480,18 +1480,7 @@ const questions = [
       { text: 'Waiting until the next sprint planning session to make any changes.', correct: false }
     ]
   },
-  {
-    set: 'Part4',
-    question: '? \n \
-    (choose the best answer)',
-    answers: [
-      { text: '.', correct: true },
-      { text: '.', correct: false },
-      { text: '.', correct: false },
-      { text: '.', correct: false }
-    ]
-  },
-  
+
   //Product Value
   {
     set: 'Part3',
