@@ -1117,11 +1117,11 @@ const questions = [
   },
   {
     set: 'Part3',
-    question: 'When is the Definition of Done created in Scrum? \n \
+    question: 'When is the Definition of Done updated in Scrum? \n \
     (choose the best answer)?',
     answers: [
       { text: 'During Sprint Planning.', correct: false },
-      { text: 'During Sprint Review.', correct: false },
+      { text: 'Between Sprints.', correct: false },
       { text: 'During Sprint Review.', correct: false },
       { text: 'Throughout the sprint.', correct: true }
     ]
