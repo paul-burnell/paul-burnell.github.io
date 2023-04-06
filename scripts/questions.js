@@ -1387,7 +1387,7 @@ const questions = [
     (choose the best answer)',
     answers: [
       { text: 'Keeping the backlog up-to-date and reflective of the current state of the product.', correct: true },
-      { text: 'Prioritizing the backlog items based on stakeholder feedback.', correct: false },
+      { text: 'Prioritizing the backlog items based only on stakeholder feedback.', correct: false },
       { text: 'Ensuring that all items in the backlog are fully defined and detailed.', correct: false },
       { text: 'Assigning tasks to the Developers.', correct: false }
     ]
